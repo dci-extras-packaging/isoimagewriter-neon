@@ -1,0 +1,22 @@
+Source: isoimagewriter
+Section: kde
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 1.1.0~),
+               libkf5auth-dev,
+               libkf5coreaddons-dev,
+               libkf5i18n-dev,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.2.0~)
+Standards-Version: 3.9.8
+Homepage: http://www.kde.org/
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/isoimagewriter.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/isoimagewriter.git
+
+Package: isoimagewriter
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: ISO Image Writer
+ Tool to write an ISO image for a Linux distro to a USB disk.
