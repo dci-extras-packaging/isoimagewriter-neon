@@ -19,6 +19,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/isoimagewriter.git
 
 Package: isoimagewriter
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libudev1, ${misc:Depends}, ${shlibs:Depends}
 Description: ISO Image Writer
  Tool to write an ISO image for a Linux distro to a USB disk.
