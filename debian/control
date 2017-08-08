@@ -8,8 +8,11 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5auth-dev,
                libkf5coreaddons-dev,
                libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5widgetsaddons-dev,
                libqgpgme7-dev,
                libudev-dev,
+               pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.2.0~)
 Standards-Version: 3.9.8
