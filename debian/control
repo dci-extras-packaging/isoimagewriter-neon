@@ -1,4 +1,4 @@
-Source: isoimagewriter
+Source: isoimagewriter-neon
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -12,10 +12,10 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.2.0~)
 Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/isoimagewriter.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/isoimagewriter.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/isoimagewriter-neon.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/isoimagewriter-neon.git
 
-Package: isoimagewriter
+Package: isoimagewriter-neon
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: ISO Image Writer
